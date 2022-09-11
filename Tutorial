@@ -34,7 +34,7 @@ print(accuracy)
 0.11129797250032425
 0.9664999842643738
 
-#make a prediction
+#look for the file that you have created and want to predict in my case i put in folder nmistnumber/number
 image_number = 1
 while os.path.isfile(f"nmistnumber/number{image_number}.png"):
     try:
